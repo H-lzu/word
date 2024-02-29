@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net" modified="2024-02-29T13:19:20.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ThMIY--iJ93qzoyMF7bu" version="23.1.6" type="device">
+  <diagram name="第 1 页" id="34E-3VCQTNK93VPSZdet">
+    <mxGraphModel dx="1514" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-37" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;dashed=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-18" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;dashed=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="350" width="260" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-1" target="EMyQQeRSvri7IwaIUMR2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;las数据预处理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-3" target="EMyQQeRSvri7IwaIUMR2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;生成DEM&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-4" target="EMyQQeRSvri7IwaIUMR2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;生成DSM&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-6" target="EMyQQeRSvri7IwaIUMR2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-19" value="分水岭" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EMyQQeRSvri7IwaIUMR2-16">
+          <mxGeometry x="-0.1067" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-6" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;生成CHM&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-7" target="EMyQQeRSvri7IwaIUMR2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-7" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;CHM单木分割&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="482" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-8" target="EMyQQeRSvri7IwaIUMR2-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-22" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;树种类别&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EMyQQeRSvri7IwaIUMR2-21">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;单木参数&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="482" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;基于CHM单木分割&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-20" target="EMyQQeRSvri7IwaIUMR2-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-20" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;异速生长方程&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="572" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-24" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;单木生物量&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="627" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-26" target="EMyQQeRSvri7IwaIUMR2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-26" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Landsat8&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-28" target="EMyQQeRSvri7IwaIUMR2-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-28" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Sentinel-1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-29" target="EMyQQeRSvri7IwaIUMR2-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-29" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;SRTM&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-30" target="EMyQQeRSvri7IwaIUMR2-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-30" target="EMyQQeRSvri7IwaIUMR2-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EMyQQeRSvri7IwaIUMR2-30" target="EMyQQeRSvri7IwaIUMR2-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-30" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;去云处理&lt;br&gt;镶嵌合成&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="340" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-34" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;波段变量&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="440" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-35" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;极化特征&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="440" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-36" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;光谱指数&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="440" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EMyQQeRSvri7IwaIUMR2-42" value="特征因子集合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="755" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
