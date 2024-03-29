@@ -1,0 +1,6 @@
+字段名	数据类型	字段描述
+LayerID	int	唯一标识一个特征图层的ID
+RegionID	int	区域标识符
+FeatureType	str	特征类型(例如:植被指数、土壤湿度等)
+RasterData	str	图层的栅格数据位置
+CreationDate	date	数据创建日期

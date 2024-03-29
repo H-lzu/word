@@ -1,0 +1,6 @@
+字段名	数据类型	字段描述
+ServiceID	int	唯一标识一个共享服务
+EstimationID	int	"碳储量估算结果的标识符,与CarbonStorageEstimations的EstimationID关联"
+WMSURL	str	提供碳储量估算结果的WMS服务URL
+AccessType	str	访问类型(例如:公开、私有)
+CreationDate	date	服务创建日期

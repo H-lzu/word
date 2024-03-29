@@ -1,0 +1,6 @@
+字段名	数据类型	字段描述
+EstimationID	int	唯一标识一个碳储量估算结果
+RegionID	int	"区域标识符,与RegionFeatureLayers的RegionID关联"
+StorageDataLocation	str	估算的碳储量结果文件(TIF)的位置
+EstimationDate	date	估算日期
+ModelVersion	str	使用的模型版本
